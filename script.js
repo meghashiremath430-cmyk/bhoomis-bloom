@@ -3,3 +3,5 @@ function showCollection() {
 
     flowers.hidden = !flowers.hidden;
 }
+
+const WHATSAPP_NUMBER = "6363124456";
