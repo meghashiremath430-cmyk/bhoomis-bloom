@@ -1,0 +1,135 @@
+
+/* Basic website styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5f7;
+    color: #543b45;
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: center;
+    background-color: #e8a5b5;
+    color: white;
+    padding: 25px;
+}
+
+body > p {
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color: #f4c6d2;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #543b45;
+    margin: 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: white;
+}
+
+section {
+    background-color: white;
+    margin: 25px;
+    padding: 35px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+section h2 {
+    color: #c66b87;
+    margin-bottom: 15px;
+}
+.flower-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.flower-card {
+    width: 250px;
+    background: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.flower-card img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+#orders form {
+    max-width: 500px;
+    margin: auto;
+    text-align: left;
+}
+
+#orders label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+#orders input,
+#orders select,
+#orders textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 1px solid pink;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+#orders button {
+    background-color: #c66b87;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+
+
+#contact a button {
+    background-color: #25D366;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#contact a button:hover {
+    background-color: #128C7E;
+}
+
+footer {
+    background-color: #e8a5b5;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 30px;
+}
